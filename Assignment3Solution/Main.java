@@ -13,7 +13,10 @@ public class Main  {
 //        as3.findMinMax();
 //        Assignment3Ques4 as4 = new Assignment3Ques4();
 //        as4.find2ndMinMax();
-        Assignment3Ques5 as5 = new Assignment3Ques5();
-        as5.findDistance();
+//        Assignment3Ques5 as5 = new Assignment3Ques5();
+//        as5.findDistance();
+        Assignment3Ques9 as9 = new Assignment3Ques9();
+        as9.leader();
+
     }
 }
