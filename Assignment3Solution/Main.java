@@ -17,6 +17,8 @@ public class Main  {
 //        as5.findDistance();
         Assignment3Ques9 as9 = new Assignment3Ques9();
         as9.leader();
+        Assignment3Ques6 as6 = new Assignment3Ques6();
+        as6.inDel();
 
     }
 }
