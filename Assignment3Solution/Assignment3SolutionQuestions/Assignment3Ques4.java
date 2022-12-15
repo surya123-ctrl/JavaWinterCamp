@@ -1,9 +1,9 @@
-package Assignment3Solution;
+package Assignment3Solution.Assignment3SolutionQuestions;
 
 import java.util.Scanner;
 
 public class Assignment3Ques4 {
-    public static void main(String[] args) {
+    public static void find2ndMinMax() {
         Scanner sc = new Scanner(System.in);
         int n;
         n = sc.nextInt();

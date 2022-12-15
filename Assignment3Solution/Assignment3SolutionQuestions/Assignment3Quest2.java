@@ -1,5 +1,5 @@
 
-package Assignment3Solution;
+package Assignment3Solution.Assignment3SolutionQuestions;
 
 
 import java.util.Scanner;
@@ -24,7 +24,7 @@ public class Assignment3Quest2 {
         for(int i=0; i<k; i++) temp[p++] = arr[i];
         for(int i=0; i<n; i++) System.out.print(temp[i] + " ");
     }
-    public static void main(String[] args) {
+    public static void reverse() {
         Scanner sc = new Scanner(System.in);
         int n;
         System.out.print("Enter size of array : ");

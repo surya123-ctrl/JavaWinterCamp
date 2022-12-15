@@ -1,9 +1,10 @@
-package Assignment3Solution;
+package Assignment3Solution.Assignment3SolutionQuestions;
 
 import java.util.Scanner;
 
+
 public class Assignment3Ques3 {
-    public static void main(String[] args) {
+    public static void findMinMax() {
         Scanner sc = new Scanner(System.in);
         int mx = Integer.MIN_VALUE;
         int mn = Integer.MAX_VALUE;
