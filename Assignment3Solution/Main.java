@@ -1,10 +1,7 @@
 package Assignment3Solution;
 
 
-import Assignment3Solution.Assignment3SolutionQuestions.Assignment3Ques1;
-import Assignment3Solution.Assignment3SolutionQuestions.Assignment3Ques3;
-import Assignment3Solution.Assignment3SolutionQuestions.Assignment3Ques4;
-import Assignment3Solution.Assignment3SolutionQuestions.Assignment3Quest2;
+import Assignment3Solution.Assignment3SolutionQuestions.*;
 
 public class Main  {
     public static void main(String[] args) {
@@ -14,7 +11,9 @@ public class Main  {
 //        as2.reverse();
 //        Assignment3Ques3 as3 = new Assignment3Ques3();
 //        as3.findMinMax();
-        Assignment3Ques4 as4 = new Assignment3Ques4();
-        as4.find2ndMinMax();
+//        Assignment3Ques4 as4 = new Assignment3Ques4();
+//        as4.find2ndMinMax();
+        Assignment3Ques5 as5 = new Assignment3Ques5();
+        as5.findDistance();
     }
 }
