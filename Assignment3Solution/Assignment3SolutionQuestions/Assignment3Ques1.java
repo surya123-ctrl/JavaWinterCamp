@@ -3,16 +3,21 @@
 
         package Assignment3Solution.Assignment3SolutionQuestions;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 public class Assignment3Ques1 {
 
-    public static void sorting() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter size of array : ");
-        int n = sc.nextInt();
-        int arr[] = new int[n];
-        for(int i=0; i<n; i++) {
-            arr[i] = sc.nextInt();
+    public static void sorting() throws ArrayIndexOutOfBoundsException {
+        int n;
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Enter size of array : ");
+            n = sc.nextInt();
+            int arr[] = new int[n];
+            try {
+                for(int i=0; i<n; i++) arr[i] = sc.nextInt();
+            }
+         catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array Bounds Exceeded...\nTry Again");
         }
         int i=0, j=0, temp=0;
         while(i<n) {

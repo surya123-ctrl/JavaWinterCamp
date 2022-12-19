@@ -3,12 +3,17 @@ package Assignment3Solution.Assignment3SolutionQuestions;
 import java.util.Scanner;
 
 public class Assignment3Ques4 {
-    public static void find2ndMinMax() {
+    public static void find2ndMinMax() throws ArrayIndexOutOfBoundsException {
         Scanner sc = new Scanner(System.in);
         int n;
         n = sc.nextInt();
         int arr[] = new int[n];
-        for(int i=0; i<n; i++) arr[i] = sc.nextInt();
+        try {
+            for(int i=0; i<n; i++) arr[i] = sc.nextInt();
+        }
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array Bounds Exceeded...\nTry Again");
+        }
         int mn1 = Integer.MAX_VALUE, mn2 = Integer.MAX_VALUE;
         for(int i=0; i<n; i++) {
             if(arr[i] < mn1) {
