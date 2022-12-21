@@ -1,4 +1,4 @@
-package Assignment2Solution;//package winter_term_java;
+package Assignment2Solution;
 
 public abstract class GetDetails{
     void Intro(){
